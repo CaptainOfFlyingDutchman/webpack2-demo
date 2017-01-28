@@ -7,3 +7,12 @@ function component() {
 }
 
 document.body.appendChild(component());
+
+/* Using the Person class */
+
+import Person from './Person';
+
+const person = new Person('Foo', 'Bar');
+person.age = 18;
+
+console.log(person.introduce);
