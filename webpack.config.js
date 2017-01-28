@@ -28,5 +28,9 @@ module.exports = {
 				}
 			}
 		})
-	]
+	],
+	devServer: {
+		publicPath: '/build/',
+		inline: true
+	}
 }
