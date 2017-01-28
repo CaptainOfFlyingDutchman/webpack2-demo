@@ -10,6 +10,8 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "handlebars": "^4.0.6",
+    "handlebars-loader": "^1.4.0",
     "lodash": "^4.17.4"
   },
   "devDependencies": {
