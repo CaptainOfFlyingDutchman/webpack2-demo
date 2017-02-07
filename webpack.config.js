@@ -19,7 +19,7 @@ var plugins = [
 
 if (isProd) {
 	plugins.push(new webpack.optimize.UglifyJsPlugin({
-		copmress: {
+		compress: {
 			warnings: false // default now
 		},
 		sourceMap: true
